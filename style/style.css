@@ -4,6 +4,7 @@
     margin: 0px;
     padding: 0px;
     font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
    
 }
 
@@ -42,4 +43,26 @@ iframe#tela{
     left: 22px;
     width:269px;
     height: 471px;
+}
+
+section#redes-sociais{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding-right: 5px;
+    padding-top: 8px;
+}
+
+section#redes-sociais img{
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px #00000066;
+}
+
+section#redes-sociais img:hover{
+    border: 2px solid #ffffffa2;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px #00000066;
+    transition: transform .4s ;
 }
